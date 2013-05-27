@@ -1,0 +1,2189 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'jade' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/jangot/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/jangot/WebstormProjects/temp/package.json
+verbose loadDefaults application-name@0.0.1
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/redis/package.json
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/mysql/package.json
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/express/package.json
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/form/package.json
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/inherit/package.json
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/acl/package.json
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/sql-builder/package.json
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/simple-acl/package.json
+verbose from cache /home/jangot/WebstormProjects/temp/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'jade@*', null ]
+silly cache add: name, spec, args [ undefined, 'jade@*', [ 'jade@*', null ] ]
+verbose parsed url { pathname: 'jade@*', path: 'jade@*', href: 'jade@*' }
+silly cache add: name, spec, args [ 'jade', '*', [ 'jade', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'jade', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jade', '', false ]
+verbose raw, before any munging jade
+verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+verbose url resolved https://registry.npmjs.org/jade
+verbose etag "6LWO71D3VG58IJ8ZVGG3RTC3V"
+http GET https://registry.npmjs.org/jade
+http 304 https://registry.npmjs.org/jade
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"6LWO71D3VG58IJ8ZVGG3RTC3V"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:32 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag jade from cache
+silly name, range, hasData 2 [ 'jade', '', true ]
+silly versions [ 'jade',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.3',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.3',
+silly versions     '0.8.4',
+silly versions     '0.8.5',
+silly versions     '0.8.6',
+silly versions     '0.8.7',
+silly versions     '0.8.8',
+silly versions     '0.8.9',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.10.0',
+silly versions     '0.10.1',
+silly versions     '0.10.2',
+silly versions     '0.10.3',
+silly versions     '0.10.4',
+silly versions     '0.10.5',
+silly versions     '0.10.6',
+silly versions     '0.10.7',
+silly versions     '0.11.0',
+silly versions     '0.11.1',
+silly versions     '0.12.0',
+silly versions     '0.12.1',
+silly versions     '0.12.2',
+silly versions     '0.12.3',
+silly versions     '0.12.4',
+silly versions     '0.13.0',
+silly versions     '0.14.0',
+silly versions     '0.14.1',
+silly versions     '0.14.2',
+silly versions     '0.15.0',
+silly versions     '0.15.1',
+silly versions     '0.15.2',
+silly versions     '0.15.3',
+silly versions     '0.15.4',
+silly versions     '0.16.0',
+silly versions     '0.16.1',
+silly versions     '0.16.2',
+silly versions     '0.16.3',
+silly versions     '0.16.4',
+silly versions     '0.17.0',
+silly versions     '0.18.0',
+silly versions     '0.19.0',
+silly versions     '0.20.0',
+silly versions     '0.20.1',
+silly versions     '0.20.2',
+silly versions     '0.20.3',
+silly versions     '0.21.0',
+silly versions     '0.22.0',
+silly versions     '0.22.1',
+silly versions     '0.23.0',
+silly versions     '0.24.0',
+silly versions     '0.25.0',
+silly versions     '0.26.0',
+silly versions     '0.26.1',
+silly versions     '0.26.2',
+silly versions     '0.26.3',
+silly versions     '0.27.0',
+silly versions     '0.27.1',
+silly versions     '0.27.2',
+silly versions     '0.27.3',
+silly versions     '0.27.4',
+silly versions     '0.27.5',
+silly versions     '0.27.6',
+silly versions     '0.27.7',
+silly versions     '0.28.0',
+silly versions     '0.28.1',
+silly versions     '0.28.2',
+silly versions     '0.29.0',
+silly versions     '0.30.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '9ea816da61bea6fef4709b4d9f6b442f1e205ba3',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jade/-/jade-0.30.0.tgz' } ]
+verbose caching /home/jangot/.npm/jade/0.30.0/package/package.json
+verbose loadDefaults jade@0.30.0
+silly resolved [ { name: 'jade',
+silly resolved     description: 'Jade template engine',
+silly resolved     version: '0.30.0',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/jade.git' },
+silly resolved     main: './index.js',
+silly resolved     bin: { jade: './bin/jade' },
+silly resolved     man: [ './jade.1' ],
+silly resolved     dependencies: 
+silly resolved      { commander: '~1.1.1',
+silly resolved        mkdirp: '0.3.x',
+silly resolved        transformers: '~2.0.1',
+silly resolved        'character-parser': '~1.0.0',
+silly resolved        monocle: '~0.1.46' },
+silly resolved     devDependencies: 
+silly resolved      { 'coffee-script': '*',
+silly resolved        mocha: '*',
+silly resolved        markdown: '*',
+silly resolved        stylus: '*',
+silly resolved        uubench: '*',
+silly resolved        should: '*',
+silly resolved        less: '*',
+silly resolved        'uglify-js': '*' },
+silly resolved     component: { scripts: { jade: 'runtime.js' } },
+silly resolved     scripts: { test: 'mocha -R spec', prepublish: 'npm prune' },
+silly resolved     _id: 'jade@0.30.0',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'jade@*' } ]
+info into /home/jangot/WebstormProjects/temp jade@0.30.0
+info installOne jade@0.30.0
+verbose from cache /home/jangot/.npm/jade/0.30.0/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/___jade.npm'
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/___jade.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/runtime.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/jade.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/Readme_zh-cn.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/runtime.min.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/Readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/LICENSE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/jade.min.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/jade.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/bin
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/bin/jade
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/index.jade
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/layout.html
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/mobile.jade
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/some.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/mobile.html
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/layout.jade
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/test.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/index.html
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/nested
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/nested/something.jade
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/testing/nested/something.html
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/runtime.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/jade.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/compiler.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/parser.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/self-closing.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/lexer.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/filters.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/doctypes.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/inline-tags.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/utils.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/text.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/code.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/tag.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/comment.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/block.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/attrs.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/case.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/block-comment.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/mixin.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/literal.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/doctype.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/node.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/filter.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package/lib/nodes/each.js
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/___jade.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/package.json
+verbose loadDefaults jade@0.30.0
+info preinstall jade@0.30.0
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'commander@~1.1.1', null ]
+silly cache add: name, spec, args [ undefined, 'commander@~1.1.1', [ 'commander@~1.1.1', null ] ]
+verbose parsed url { pathname: 'commander@~1.1.1',
+verbose parsed url   path: 'commander@~1.1.1',
+verbose parsed url   href: 'commander@~1.1.1' }
+silly cache add: name, spec, args [ 'commander', '~1.1.1', [ 'commander', '~1.1.1' ] ]
+verbose parsed url { pathname: '~1.1.1', path: '~1.1.1', href: '~1.1.1' }
+verbose addNamed [ 'commander', '~1.1.1' ]
+verbose addNamed [ null, '>=1.1.1- <1.2.0-' ]
+silly name, range, hasData [ 'commander', '>=1.1.1- <1.2.0-', false ]
+verbose raw, before any munging commander
+verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+verbose url resolved https://registry.npmjs.org/commander
+verbose etag "D7K1H7LZWS5MZ5237EITUFCEM"
+http GET https://registry.npmjs.org/commander
+verbose cache add [ 'mkdirp@0.3.x', null ]
+silly cache add: name, spec, args [ undefined, 'mkdirp@0.3.x', [ 'mkdirp@0.3.x', null ] ]
+verbose parsed url { pathname: 'mkdirp@0.3.x',
+verbose parsed url   path: 'mkdirp@0.3.x',
+verbose parsed url   href: 'mkdirp@0.3.x' }
+silly cache add: name, spec, args [ 'mkdirp', '0.3.x', [ 'mkdirp', '0.3.x' ] ]
+verbose parsed url { pathname: '0.3.x', path: '0.3.x', href: '0.3.x' }
+verbose addNamed [ 'mkdirp', '0.3.x' ]
+verbose addNamed [ null, '>=0.3.0- <0.4.0-' ]
+silly name, range, hasData [ 'mkdirp', '>=0.3.0- <0.4.0-', false ]
+verbose cache add [ 'transformers@~2.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'transformers@~2.0.1',
+silly cache add: name, spec, args   [ 'transformers@~2.0.1', null ] ]
+verbose parsed url { pathname: 'transformers@~2.0.1',
+verbose parsed url   path: 'transformers@~2.0.1',
+verbose parsed url   href: 'transformers@~2.0.1' }
+silly cache add: name, spec, args [ 'transformers', '~2.0.1', [ 'transformers', '~2.0.1' ] ]
+verbose parsed url { pathname: '~2.0.1', path: '~2.0.1', href: '~2.0.1' }
+verbose addNamed [ 'transformers', '~2.0.1' ]
+verbose addNamed [ null, '>=2.0.1- <2.1.0-' ]
+silly name, range, hasData [ 'transformers', '>=2.0.1- <2.1.0-', false ]
+verbose cache add [ 'character-parser@~1.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'character-parser@~1.0.0',
+silly cache add: name, spec, args   [ 'character-parser@~1.0.0', null ] ]
+verbose parsed url { pathname: 'character-parser@~1.0.0',
+verbose parsed url   path: 'character-parser@~1.0.0',
+verbose parsed url   href: 'character-parser@~1.0.0' }
+silly cache add: name, spec, args [ 'character-parser',
+silly cache add: name, spec, args   '~1.0.0',
+silly cache add: name, spec, args   [ 'character-parser', '~1.0.0' ] ]
+verbose parsed url { pathname: '~1.0.0', path: '~1.0.0', href: '~1.0.0' }
+verbose addNamed [ 'character-parser', '~1.0.0' ]
+verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+silly name, range, hasData [ 'character-parser', '>=1.0.0- <1.1.0-', false ]
+verbose cache add [ 'monocle@~0.1.46', null ]
+silly cache add: name, spec, args [ undefined, 'monocle@~0.1.46', [ 'monocle@~0.1.46', null ] ]
+verbose parsed url { pathname: 'monocle@~0.1.46',
+verbose parsed url   path: 'monocle@~0.1.46',
+verbose parsed url   href: 'monocle@~0.1.46' }
+silly cache add: name, spec, args [ 'monocle', '~0.1.46', [ 'monocle', '~0.1.46' ] ]
+verbose parsed url { pathname: '~0.1.46', path: '~0.1.46', href: '~0.1.46' }
+verbose addNamed [ 'monocle', '~0.1.46' ]
+verbose addNamed [ null, '>=0.1.46- <0.2.0-' ]
+silly name, range, hasData [ 'monocle', '>=0.1.46- <0.2.0-', false ]
+verbose raw, before any munging mkdirp
+verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+verbose url resolved https://registry.npmjs.org/mkdirp
+verbose etag "70H8GMWIASLZFZ8IT1LAKOPZ4"
+http GET https://registry.npmjs.org/mkdirp
+verbose raw, before any munging character-parser
+verbose url resolving [ 'https://registry.npmjs.org/', './character-parser' ]
+verbose url resolved https://registry.npmjs.org/character-parser
+verbose etag "C4FOOS3BNFK1ZNEPY2STWE2UQ"
+http GET https://registry.npmjs.org/character-parser
+verbose raw, before any munging monocle
+verbose url resolving [ 'https://registry.npmjs.org/', './monocle' ]
+verbose url resolved https://registry.npmjs.org/monocle
+verbose etag "8JQ895KEBBCGUOUTYPA1G79HA"
+http GET https://registry.npmjs.org/monocle
+verbose raw, before any munging transformers
+verbose url resolving [ 'https://registry.npmjs.org/', './transformers' ]
+verbose url resolved https://registry.npmjs.org/transformers
+verbose etag "7MRTJCC1CE4IQQE6NJ9QUOJ0I"
+http GET https://registry.npmjs.org/transformers
+http 304 https://registry.npmjs.org/commander
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"D7K1H7LZWS5MZ5237EITUFCEM"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:33 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag commander from cache
+silly name, range, hasData 2 [ 'commander', '>=1.1.1- <1.2.0-', true ]
+silly versions [ 'commander',
+silly versions   [ '0.2.1',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.5.2',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.1.0',
+silly versions     '1.1.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '50d1651868ae60eccff0a2d9f34595376bc6b041',
+verbose bin dist     tarball: 'http://registry.npmjs.org/commander/-/commander-1.1.1.tgz' } ]
+http 304 https://registry.npmjs.org/monocle
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"8JQ895KEBBCGUOUTYPA1G79HA"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:33 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag monocle from cache
+http 304 https://registry.npmjs.org/character-parser
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"C4FOOS3BNFK1ZNEPY2STWE2UQ"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:33 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag character-parser from cache
+http 304 https://registry.npmjs.org/mkdirp
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"70H8GMWIASLZFZ8IT1LAKOPZ4"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:33 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mkdirp from cache
+verbose caching /home/jangot/.npm/commander/1.1.1/package/package.json
+verbose loadDefaults commander@1.1.1
+silly name, range, hasData 2 [ 'monocle', '>=0.1.46- <0.2.0-', true ]
+silly versions [ 'monocle',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.15',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.40',
+silly versions     '0.1.41',
+silly versions     '0.1.42',
+silly versions     '0.1.43',
+silly versions     '0.1.45',
+silly versions     '0.1.46',
+silly versions     '0.1.47',
+silly versions     '0.1.48' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: 'b96730f5ca900fa75a56041eb6db10aad980a383',
+verbose bin dist     tarball: 'http://registry.npmjs.org/monocle/-/monocle-0.1.48.tgz' } ]
+silly name, range, hasData 2 [ 'mkdirp', '>=0.3.0- <0.4.0-', true ]
+silly versions [ 'mkdirp',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.5' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' } ]
+silly name, range, hasData 2 [ 'character-parser', '>=1.0.0- <1.1.0-', true ]
+silly versions [ 'character-parser', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '55384d6afcf8c6b9dd483e8347646a790e4545e7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/character-parser/-/character-parser-1.0.2.tgz' } ]
+verbose caching /home/jangot/.npm/monocle/0.1.48/package/package.json
+verbose loadDefaults monocle@0.1.48
+verbose caching /home/jangot/.npm/mkdirp/0.3.5/package/package.json
+verbose loadDefaults mkdirp@0.3.5
+verbose caching /home/jangot/.npm/character-parser/1.0.2/package/package.json
+verbose loadDefaults character-parser@1.0.2
+http 304 https://registry.npmjs.org/transformers
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"7MRTJCC1CE4IQQE6NJ9QUOJ0I"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:33 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag transformers from cache
+silly name, range, hasData 2 [ 'transformers', '>=2.0.1- <2.1.0-', true ]
+silly versions [ 'transformers',
+silly versions   [ '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.3.0',
+silly versions     '1.4.0',
+silly versions     '1.5.0',
+silly versions     '1.6.0',
+silly versions     '1.7.0',
+silly versions     '1.8.0',
+silly versions     '1.8.1',
+silly versions     '1.8.2',
+silly versions     '1.8.3',
+silly versions     '2.0.0',
+silly versions     '2.0.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '352131dfceb93a7532dc7535a4f142510435a394',
+verbose bin dist     tarball: 'http://registry.npmjs.org/transformers/-/transformers-2.0.1.tgz' } ]
+verbose caching /home/jangot/.npm/transformers/2.0.1/package/package.json
+verbose loadDefaults transformers@2.0.1
+silly resolved [ { name: 'commander',
+silly resolved     version: '1.1.1',
+silly resolved     description: 'the complete solution for node.js command-line programs',
+silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/commander.js.git' },
+silly resolved     dependencies: { keypress: '0.1.x' },
+silly resolved     devDependencies: { should: '>= 0.0.1' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.6.x' },
+silly resolved     _id: 'commander@1.1.1',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'commander@~1.1.1' },
+silly resolved   { name: 'monocle',
+silly resolved     version: '0.1.48',
+silly resolved     description: 'a tool for watching directories for file changes',
+silly resolved     main: 'monocle.js',
+silly resolved     directories: { test: 'test' },
+silly resolved     dependencies: { readdirp: '~0.2.3' },
+silly resolved     devDependencies: { mocha: '1.8.1' },
+silly resolved     scripts: { test: 'mocha test -R spec -t 2000' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/samccone/monocle.git' },
+silly resolved     bugs: { url: 'https://github.com/samccone/monocle/issues' },
+silly resolved     keywords: [ 'watch', 'filesystem', 'folders', 'fs' ],
+silly resolved     author: { name: 'Sam Saccone' },
+silly resolved     license: 'BSD',
+silly resolved     _id: 'monocle@0.1.48',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'monocle@~0.1.46' },
+silly resolved   { name: 'mkdirp',
+silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+silly resolved     version: '0.3.5',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     main: './index',
+silly resolved     keywords: [ 'mkdir', 'directory' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-mkdirp.git' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     devDependencies: { tap: '~0.4.0' },
+silly resolved     license: 'MIT',
+silly resolved     _id: 'mkdirp@0.3.5',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'mkdirp@0.3.x' },
+silly resolved   { name: 'character-parser',
+silly resolved     version: '1.0.2',
+silly resolved     description: 'Parse JavaScript one character at a time to look for snippets in Templates.  This is not a validator, it\'s just designed to allow you to have sections of JavaScript delimited by brackets robustly.',
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'mocha -R spec' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/ForbesLindesay/character-parser.git' },
+silly resolved     keywords: 
+silly resolved      [ 'parser',
+silly resolved        'JavaScript',
+silly resolved        'bracket',
+silly resolved        'nesting',
+silly resolved        'comment',
+silly resolved        'string',
+silly resolved        'escape',
+silly resolved        'escaping' ],
+silly resolved     author: { name: 'ForbesLindesay' },
+silly resolved     license: 'MIT',
+silly resolved     devDependencies: { 'better-assert': '~1.0.0', mocha: '~1.9.0' },
+silly resolved     _id: 'character-parser@1.0.2',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'character-parser@~1.0.0' },
+silly resolved   { name: 'transformers',
+silly resolved     version: '2.0.1',
+silly resolved     description: 'String/Data transformations for use in templating libraries, static site generators and web frameworks',
+silly resolved     main: 'lib/transformers.js',
+silly resolved     scripts: 
+silly resolved      { pretest: 'node test/update-package && npm install',
+silly resolved        test: 'mocha test/test.js -R spec' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/ForbesLindesay/transformers.git' },
+silly resolved     author: { name: 'ForbesLindesay' },
+silly resolved     license: 'MIT',
+silly resolved     readmeFilename: 'README.md',
+silly resolved     gitHead: '4b46e72cba3ad3403fd5ed3802d5472dcfa77311',
+silly resolved     devDependencies: 
+silly resolved      { mocha: '~1.8',
+silly resolved        'expect.js': '~0.2',
+silly resolved        swig: '*',
+silly resolved        atpl: '*',
+silly resolved        liquor: '*',
+silly resolved        ejs: '*',
+silly resolved        eco: '*',
+silly resolved        jqtpl: '*',
+silly resolved        hamljs: '*',
+silly resolved        'haml-coffee': '*',
+silly resolved        whiskers: '*',
+silly resolved        'hogan.js': '*',
+silly resolved        handlebars: '*',
+silly resolved        underscore: '*',
+silly resolved        walrus: '*',
+silly resolved        mustache: '*',
+silly resolved        mote: '*',
+silly resolved        toffee: '*',
+silly resolved        just: '*',
+silly resolved        ect: '*',
+silly resolved        jade: '*',
+silly resolved        'then-jade': '*',
+silly resolved        dust: '*',
+silly resolved        'dustjs-linkedin': '*',
+silly resolved        jazz: '*',
+silly resolved        qejs: '*',
+silly resolved        less: '*',
+silly resolved        stylus: '*',
+silly resolved        sass: '*',
+silly resolved        marked: '*',
+silly resolved        supermarked: '*',
+silly resolved        'markdown-js': '*',
+silly resolved        markdown: '*',
+silly resolved        'coffee-script': '*',
+silly resolved        cson: '*',
+silly resolved        coffeekup: '*',
+silly resolved        coffeecup: '*',
+silly resolved        templayed: '*',
+silly resolved        plates: '*',
+silly resolved        dot: '*',
+silly resolved        'component-builder': '*',
+silly resolved        html2jade: '*',
+silly resolved        'highlight.js': '*' },
+silly resolved     dependencies: { promise: '~2.0', css: '~1.0.8', 'uglify-js': '~2.2.5' },
+silly resolved     _id: 'transformers@2.0.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'transformers@~2.0.1' } ]
+info into /home/jangot/WebstormProjects/temp/node_modules/jade commander@1.1.1
+info into /home/jangot/WebstormProjects/temp/node_modules/jade monocle@0.1.48
+info into /home/jangot/WebstormProjects/temp/node_modules/jade mkdirp@0.3.5
+info into /home/jangot/WebstormProjects/temp/node_modules/jade character-parser@1.0.2
+info into /home/jangot/WebstormProjects/temp/node_modules/jade transformers@2.0.1
+info installOne commander@1.1.1
+info installOne monocle@0.1.48
+info installOne mkdirp@0.3.5
+info installOne character-parser@1.0.2
+info installOne transformers@2.0.1
+verbose from cache /home/jangot/.npm/commander/1.1.1/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander
+verbose from cache /home/jangot/.npm/monocle/0.1.48/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle
+verbose from cache /home/jangot/.npm/mkdirp/0.3.5/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp
+verbose from cache /home/jangot/.npm/character-parser/1.0.2/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser
+verbose from cache /home/jangot/.npm/transformers/2.0.1/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm'
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm 755
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm 755
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm 755
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package/test/index.js
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___character-parser.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser/package.json
+verbose loadDefaults character-parser@1.0.2
+info preinstall character-parser@1.0.2
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/character-parser/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules' ]
+info linkStuff character-parser@1.0.2
+verbose linkBins character-parser@1.0.2
+verbose linkMans character-parser@1.0.2
+verbose rebuildBundles character-parser@1.0.2
+info install character-parser@1.0.2
+info postinstall character-parser@1.0.2
+verbose installOne cb character-parser@1.0.2
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package/Makefile
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package/History.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package/Readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package/package.json
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___commander.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/package.json
+verbose loadDefaults commander@1.1.1
+info preinstall commander@1.1.1
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'keypress@0.1.x', null ]
+silly cache add: name, spec, args [ undefined, 'keypress@0.1.x', [ 'keypress@0.1.x', null ] ]
+verbose parsed url { pathname: 'keypress@0.1.x',
+verbose parsed url   path: 'keypress@0.1.x',
+verbose parsed url   href: 'keypress@0.1.x' }
+silly cache add: name, spec, args [ 'keypress', '0.1.x', [ 'keypress', '0.1.x' ] ]
+verbose parsed url { pathname: '0.1.x', path: '0.1.x', href: '0.1.x' }
+verbose addNamed [ 'keypress', '0.1.x' ]
+verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+silly name, range, hasData [ 'keypress', '>=0.1.0- <0.2.0-', false ]
+verbose raw, before any munging keypress
+verbose url resolving [ 'https://registry.npmjs.org/', './keypress' ]
+verbose url resolved https://registry.npmjs.org/keypress
+verbose etag "283N94EMR7CW8ZWCQMZDMAL0N"
+http GET https://registry.npmjs.org/keypress
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/LICENSE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/examples
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/examples/pow.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/sync.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/return_sync.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/umask_sync.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/perm.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/umask.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/mkdirp.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/return.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/root.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/perm_sync.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/rel.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/clobber.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/race.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package/test/chmod.js
+silly chmod package 755
+silly afterUntar ok
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___mkdirp.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp/package.json
+verbose loadDefaults mkdirp@0.3.5
+info preinstall mkdirp@0.3.5
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/monocle.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/logo.png
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/LICENSE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/tester.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/creation5.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/creation4.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/longbow.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/creation3.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/zap.bat
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/foo.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/nestedDir
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package/test/sample_files/nestedDir/servent.txt
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/mkdirp/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules' ]
+info linkStuff mkdirp@0.3.5
+verbose linkBins mkdirp@0.3.5
+verbose linkMans mkdirp@0.3.5
+verbose rebuildBundles mkdirp@0.3.5
+silly chmod package 755
+info install mkdirp@0.3.5
+info postinstall mkdirp@0.3.5
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle
+verbose installOne cb mkdirp@0.3.5
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___monocle.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/package.json
+verbose loadDefaults monocle@0.1.48
+info preinstall monocle@0.1.48
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'readdirp@~0.2.3', null ]
+silly cache add: name, spec, args [ undefined, 'readdirp@~0.2.3', [ 'readdirp@~0.2.3', null ] ]
+verbose parsed url { pathname: 'readdirp@~0.2.3',
+verbose parsed url   path: 'readdirp@~0.2.3',
+verbose parsed url   href: 'readdirp@~0.2.3' }
+silly cache add: name, spec, args [ 'readdirp', '~0.2.3', [ 'readdirp', '~0.2.3' ] ]
+verbose parsed url { pathname: '~0.2.3', path: '~0.2.3', href: '~0.2.3' }
+verbose addNamed [ 'readdirp', '~0.2.3' ]
+verbose addNamed [ null, '>=0.2.3- <0.3.0-' ]
+silly name, range, hasData [ 'readdirp', '>=0.2.3- <0.3.0-', false ]
+verbose raw, before any munging readdirp
+verbose url resolving [ 'https://registry.npmjs.org/', './readdirp' ]
+verbose url resolved https://registry.npmjs.org/readdirp
+verbose etag "5YKMYG37KOL0W5WAF4M0KHPXN"
+http GET https://registry.npmjs.org/readdirp
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/history.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/lib
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/lib/shared.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/lib/transformers.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/update-package.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/test.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffeecup
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffeecup/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffeecup/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffeecup/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffeecup/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/dust
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/dust/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/dust/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cdata
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cdata/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cdata/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cdata/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cdata/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml-coffee
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml-coffee/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml-coffee/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/dot
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/dot/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/dot/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-json/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-json/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-json/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-json/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/atpl
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/atpl/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/atpl/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/plates
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/plates/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/plates/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/plates/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/plates/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/liquor
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/liquor/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/liquor/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/toffee
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/toffee/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/toffee/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/sass
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/sass/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/sass/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/sass/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/sass/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/stylus
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/stylus/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/stylus/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/stylus/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/stylus/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/walrus
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/walrus/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/walrus/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cson
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cson/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cson/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cson/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/cson/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/eco
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/eco/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/eco/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/templayed
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/templayed/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/templayed/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jade
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jade/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jade/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/swig
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/swig/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/swig/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/less
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/less/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/less/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/less/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/less/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/ejs
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/ejs/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/ejs/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/haml/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/ect
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/ect/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/ect/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/whiskers
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/whiskers/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/whiskers/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/markdown/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/markdown/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/markdown/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/markdown/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jazz
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jazz/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jazz/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-css
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-css/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-css/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-css/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/uglify-css/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/qejs
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/qejs/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/qejs/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/handlebars
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/handlebars/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/handlebars/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffee-script
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffee-script/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffee-script/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffee-script/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/coffee-script/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jqtpl
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jqtpl/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/jqtpl/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/just
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/just/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/just/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/mote
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/mote/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/mote/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/mustache
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/mustache/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/mustache/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/underscore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/underscore/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/underscore/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/hogan
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/hogan/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/hogan/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/html2jade
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/html2jade/sample-a-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/html2jade/sample-a.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/html2jade/sample-b-expected.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/simple/html2jade/sample-b.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/uglify-js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/uglify-js/script.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/second.css
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/index.css
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/build
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/build/build.css
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/build/build.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-domify
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-domify/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-domify/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-classes
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-classes/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-classes/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-dom
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-dom/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-dom/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-indexof
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-indexof/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-indexof/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-matches-selector
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-matches-selector/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-matches-selector/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-event
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-event/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-event/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-type
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-type/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-type/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-delegate
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-delegate/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package/test/fixtures/component/components/component-delegate/index.js
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/___transformers.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/package.json
+verbose loadDefaults transformers@2.0.1
+info preinstall transformers@2.0.1
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'promise@~2.0', null ]
+silly cache add: name, spec, args [ undefined, 'promise@~2.0', [ 'promise@~2.0', null ] ]
+verbose parsed url { pathname: 'promise@~2.0',
+verbose parsed url   path: 'promise@~2.0',
+verbose parsed url   href: 'promise@~2.0' }
+silly cache add: name, spec, args [ 'promise', '~2.0', [ 'promise', '~2.0' ] ]
+verbose parsed url { pathname: '~2.0', path: '~2.0', href: '~2.0' }
+verbose addNamed [ 'promise', '~2.0' ]
+verbose addNamed [ null, '>=2.0.0- <2.1.0-' ]
+silly name, range, hasData [ 'promise', '>=2.0.0- <2.1.0-', false ]
+verbose raw, before any munging promise
+verbose url resolving [ 'https://registry.npmjs.org/', './promise' ]
+verbose url resolved https://registry.npmjs.org/promise
+verbose etag "8GYF82Y6WJBQ80Q9XCHK9DFKJ"
+http GET https://registry.npmjs.org/promise
+verbose cache add [ 'css@~1.0.8', null ]
+silly cache add: name, spec, args [ undefined, 'css@~1.0.8', [ 'css@~1.0.8', null ] ]
+verbose parsed url { pathname: 'css@~1.0.8',
+verbose parsed url   path: 'css@~1.0.8',
+verbose parsed url   href: 'css@~1.0.8' }
+silly cache add: name, spec, args [ 'css', '~1.0.8', [ 'css', '~1.0.8' ] ]
+verbose parsed url { pathname: '~1.0.8', path: '~1.0.8', href: '~1.0.8' }
+verbose addNamed [ 'css', '~1.0.8' ]
+verbose addNamed [ null, '>=1.0.8- <1.1.0-' ]
+silly name, range, hasData [ 'css', '>=1.0.8- <1.1.0-', false ]
+verbose cache add [ 'uglify-js@~2.2.5', null ]
+silly cache add: name, spec, args [ undefined, 'uglify-js@~2.2.5', [ 'uglify-js@~2.2.5', null ] ]
+verbose parsed url { pathname: 'uglify-js@~2.2.5',
+verbose parsed url   path: 'uglify-js@~2.2.5',
+verbose parsed url   href: 'uglify-js@~2.2.5' }
+silly cache add: name, spec, args [ 'uglify-js', '~2.2.5', [ 'uglify-js', '~2.2.5' ] ]
+verbose parsed url { pathname: '~2.2.5', path: '~2.2.5', href: '~2.2.5' }
+verbose addNamed [ 'uglify-js', '~2.2.5' ]
+verbose addNamed [ null, '>=2.2.5- <2.3.0-' ]
+silly name, range, hasData [ 'uglify-js', '>=2.2.5- <2.3.0-', false ]
+verbose raw, before any munging css
+verbose url resolving [ 'https://registry.npmjs.org/', './css' ]
+verbose url resolved https://registry.npmjs.org/css
+verbose etag "52I99AQ3HELHE27P9X9FYIJ61"
+http GET https://registry.npmjs.org/css
+verbose raw, before any munging uglify-js
+verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+verbose url resolved https://registry.npmjs.org/uglify-js
+verbose etag "7BLRE30LEF9Q25MJ1UFNAKB2D"
+http GET https://registry.npmjs.org/uglify-js
+http 304 https://registry.npmjs.org/keypress
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"283N94EMR7CW8ZWCQMZDMAL0N"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:34 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag keypress from cache
+silly name, range, hasData 2 [ 'keypress', '>=0.1.0- <0.2.0-', true ]
+silly versions [ 'keypress', [ '0.0.1', '0.0.2', '0.1.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '4a3188d4291b66b4f65edb99f806aa9ae293592a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/keypress/-/keypress-0.1.0.tgz' } ]
+verbose caching /home/jangot/.npm/keypress/0.1.0/package/package.json
+verbose loadDefaults keypress@0.1.0
+silly resolved [ { name: 'keypress',
+silly resolved     version: '0.1.0',
+silly resolved     description: 'Make any Node ReadableStream emit "keypress" events',
+silly resolved     author: 
+silly resolved      { name: 'Nathan Rajlich',
+silly resolved        email: 'nathan@tootallnate.net',
+silly resolved        url: 'http://tootallnate.net' },
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/TooTallNate/keypress.git' },
+silly resolved     keywords: [ 'keypress', 'readline', 'core' ],
+silly resolved     license: 'MIT',
+silly resolved     _id: 'keypress@0.1.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'keypress@0.1.x' } ]
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander keypress@0.1.0
+info installOne keypress@0.1.0
+verbose from cache /home/jangot/.npm/keypress/0.1.0/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm'
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm/package/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm/package/test.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm/package/package.json
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/___keypress.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress/package.json
+verbose loadDefaults keypress@0.1.0
+http 304 https://registry.npmjs.org/readdirp
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"5YKMYG37KOL0W5WAF4M0KHPXN"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:34 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag readdirp from cache
+info preinstall keypress@0.1.0
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress/package.json
+silly name, range, hasData 2 [ 'readdirp', '>=0.2.3- <0.3.0-', true ]
+silly versions [ 'readdirp',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '469a896cce3fa70b856fbbd10e3475760060008e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/readdirp/-/readdirp-0.2.4.tgz' } ]
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules/keypress/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/node_modules' ]
+info linkStuff keypress@0.1.0
+verbose linkBins keypress@0.1.0
+verbose linkMans keypress@0.1.0
+verbose rebuildBundles keypress@0.1.0
+info install keypress@0.1.0
+verbose caching /home/jangot/.npm/readdirp/0.2.4/package/package.json
+verbose loadDefaults readdirp@0.2.4
+silly resolved [ { author: 
+silly resolved      { name: 'Thorsten Lorenz',
+silly resolved        email: 'thlorenz@gmx.de',
+silly resolved        url: 'thlorenz.com' },
+silly resolved     name: 'readdirp',
+silly resolved     description: 'Recursive version of fs.readdir with streaming api.',
+silly resolved     version: '0.2.4',
+silly resolved     homepage: 'https://github.com/thlorenz/readdirp',
+silly resolved     repository: { type: 'git', url: 'git://github.com/thlorenz/readdirp.git' },
+silly resolved     engines: { node: '>=0.4' },
+silly resolved     keywords: 
+silly resolved      [ 'recursive',
+silly resolved        'fs',
+silly resolved        'stream',
+silly resolved        'streams',
+silly resolved        'readdir',
+silly resolved        'filesystem',
+silly resolved        'find',
+silly resolved        'filter' ],
+silly resolved     main: 'readdirp.js',
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     dependencies: { minimatch: '>=0.2.4' },
+silly resolved     devDependencies: { tap: '~0.3.1', through: '~1.1.0', minimatch: '~0.2.7' },
+silly resolved     optionalDependencies: {},
+silly resolved     license: 'MIT',
+silly resolved     _id: 'readdirp@0.2.4',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'readdirp@~0.2.3' } ]
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle readdirp@0.2.4
+info installOne readdirp@0.2.4
+info postinstall keypress@0.1.0
+verbose from cache /home/jangot/.npm/readdirp/0.2.4/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/readdirp
+verbose installOne cb keypress@0.1.0
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/commander/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules' ]
+info linkStuff commander@1.1.1
+verbose linkBins commander@1.1.1
+verbose linkMans commander@1.1.1
+verbose rebuildBundles commander@1.1.1
+verbose rebuildBundles [ 'keypress' ]
+info install commander@1.1.1
+info postinstall commander@1.1.1
+verbose installOne cb commander@1.1.1
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm'
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/readdirp
+silly gunzTarPerm modes [ '755', '644' ]
+http 304 https://registry.npmjs.org/promise
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"8GYF82Y6WJBQ80Q9XCHK9DFKJ"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:34 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag promise from cache
+silly name, range, hasData 2 [ 'promise', '>=2.0.0- <2.1.0-', true ]
+silly versions [ 'promise', [ '1.2.1', '1.2.2', '1.3.0', '2.0.0', '3.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '46648aa9d605af5d2e70c3024bf59436da02b80e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/promise/-/promise-2.0.0.tgz' } ]
+verbose caching /home/jangot/.npm/promise/2.0.0/package/package.json
+verbose loadDefaults promise@2.0.0
+http 304 https://registry.npmjs.org/css
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"52I99AQ3HELHE27P9X9FYIJ61"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:34 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag css from cache
+silly name, range, hasData 2 [ 'css', '>=1.0.8- <1.1.0-', true ]
+silly versions [ 'css',
+silly versions   [ '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.1.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '9386811ca82bccc9ee7fb5a732b1e2a317c8a3e7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/css/-/css-1.0.8.tgz' } ]
+verbose caching /home/jangot/.npm/css/1.0.8/package/package.json
+verbose loadDefaults css@1.0.8
+http 304 https://registry.npmjs.org/uglify-js
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"7BLRE30LEF9Q25MJ1UFNAKB2D"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:34 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag uglify-js from cache
+silly name, range, hasData 2 [ 'uglify-js', '>=2.2.5- <2.3.0-', true ]
+silly versions [ 'uglify-js',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4',
+silly versions     '1.2.5',
+silly versions     '1.2.6',
+silly versions     '1.3.0',
+silly versions     '1.3.1',
+silly versions     '1.3.2',
+silly versions     '1.3.3',
+silly versions     '1.3.4',
+silly versions     '2.2.0',
+silly versions     '2.2.1',
+silly versions     '2.2.2',
+silly versions     '2.2.3',
+silly versions     '2.2.4',
+silly versions     '2.2.5',
+silly versions     '2.3.0',
+silly versions     '2.3.1',
+silly versions     '2.3.2',
+silly versions     '2.3.3',
+silly versions     '2.3.4',
+silly versions     '2.3.5',
+silly versions     '2.3.6' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: 'a6e02a70d839792b9780488b7b8b184c095c99c7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/uglify-js/-/uglify-js-2.2.5.tgz' } ]
+verbose caching /home/jangot/.npm/uglify-js/2.2.5/package/package.json
+verbose loadDefaults uglify-js@2.2.5
+silly resolved [ { name: 'promise',
+silly resolved     version: '2.0.0',
+silly resolved     description: 'Bare bones Promises/A+ implementation',
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'mocha -R spec --timeout 200 --slow 99999' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/then/promise.git' },
+silly resolved     author: { name: 'ForbesLindesay' },
+silly resolved     license: 'MIT',
+silly resolved     dependencies: { 'is-promise': '~1' },
+silly resolved     devDependencies: 
+silly resolved      { 'promises-aplus-tests': '*',
+silly resolved        'mocha-as-promised': '~1.2.1',
+silly resolved        'better-assert': '~1.0.0' },
+silly resolved     _id: 'promise@2.0.0',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'promise@~2.0' },
+silly resolved   { name: 'css',
+silly resolved     version: '1.0.8',
+silly resolved     description: 'CSS parser / stringifier using css-parse and css-stringify',
+silly resolved     keywords: [ 'css', 'parser', 'stylesheet' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     dependencies: { 'css-parse': '1.0.4', 'css-stringify': '1.0.5' },
+silly resolved     main: 'index',
+silly resolved     _id: 'css@1.0.8',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'css@~1.0.8',
+silly resolved     scripts: {} },
+silly resolved   { name: 'uglify-js',
+silly resolved     description: 'JavaScript parser, mangler/compressor and beautifier toolkit',
+silly resolved     homepage: 'http://lisperator.net/uglifyjs',
+silly resolved     main: 'tools/node.js',
+silly resolved     version: '2.2.5',
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'Mihai Bazon',
+silly resolved          email: 'mihai.bazon@gmail.com',
+silly resolved          url: 'http://lisperator.net/' } ],
+silly resolved     repositories: [ { type: 'git', url: 'https://github.com/mishoo/UglifyJS2.git' } ],
+silly resolved     dependencies: { 'source-map': '~0.1.7', optimist: '~0.3.5' },
+silly resolved     bin: { uglifyjs: 'bin/uglifyjs' },
+silly resolved     scripts: { test: 'node test/run-tests.js' },
+silly resolved     _id: 'uglify-js@2.2.5',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'uglify-js@~2.2.5' } ]
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers promise@2.0.0
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers css@1.0.8
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers uglify-js@2.2.5
+info installOne promise@2.0.0
+info installOne css@1.0.8
+info installOne uglify-js@2.2.5
+verbose from cache /home/jangot/.npm/promise/2.0.0/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise
+verbose from cache /home/jangot/.npm/css/1.0.8/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css
+verbose from cache /home/jangot/.npm/uglify-js/2.2.5/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm'
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm 755
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm/package/Readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm/package/package.json
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___promise.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/package.json
+verbose loadDefaults promise@2.0.0
+info preinstall promise@2.0.0
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'is-promise@~1', null ]
+silly cache add: name, spec, args [ undefined, 'is-promise@~1', [ 'is-promise@~1', null ] ]
+verbose parsed url { pathname: 'is-promise@~1',
+verbose parsed url   path: 'is-promise@~1',
+verbose parsed url   href: 'is-promise@~1' }
+silly cache add: name, spec, args [ 'is-promise', '~1', [ 'is-promise', '~1' ] ]
+verbose parsed url { pathname: '~1', path: '~1', href: '~1' }
+verbose addNamed [ 'is-promise', '~1' ]
+verbose addNamed [ null, '>=1.0.0- <2.0.0-' ]
+silly name, range, hasData [ 'is-promise', '>=1.0.0- <2.0.0-', false ]
+silly afterUntar ok
+verbose raw, before any munging is-promise
+verbose url resolving [ 'https://registry.npmjs.org/', './is-promise' ]
+verbose url resolved https://registry.npmjs.org/is-promise
+verbose etag "93525UOVLGZVZ46R0AA0GD6H4"
+http GET https://registry.npmjs.org/is-promise
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/Makefile
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/History.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/Readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/benchmark.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/test.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package/package.json
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___css.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/package.json
+verbose loadDefaults css@1.0.8
+info preinstall css@1.0.8
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'css-parse@1.0.4', null ]
+silly cache add: name, spec, args [ undefined, 'css-parse@1.0.4', [ 'css-parse@1.0.4', null ] ]
+verbose parsed url { pathname: 'css-parse@1.0.4',
+verbose parsed url   path: 'css-parse@1.0.4',
+verbose parsed url   href: 'css-parse@1.0.4' }
+silly cache add: name, spec, args [ 'css-parse', '1.0.4', [ 'css-parse', '1.0.4' ] ]
+verbose parsed url { pathname: '1.0.4', path: '1.0.4', href: '1.0.4' }
+verbose addNamed [ 'css-parse', '1.0.4' ]
+verbose addNamed [ '1.0.4', '1.0.4' ]
+verbose raw, before any munging css-parse/1.0.4
+verbose url resolving [ 'https://registry.npmjs.org/', './css-parse/1.0.4' ]
+verbose url resolved https://registry.npmjs.org/css-parse/1.0.4
+verbose etag "3MTBCT7T6RX6ZR7AC6GERGGPN"
+http GET https://registry.npmjs.org/css-parse/1.0.4
+verbose cache add [ 'css-stringify@1.0.5', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'css-stringify@1.0.5',
+silly cache add: name, spec, args   [ 'css-stringify@1.0.5', null ] ]
+verbose parsed url { pathname: 'css-stringify@1.0.5',
+verbose parsed url   path: 'css-stringify@1.0.5',
+verbose parsed url   href: 'css-stringify@1.0.5' }
+silly cache add: name, spec, args [ 'css-stringify', '1.0.5', [ 'css-stringify', '1.0.5' ] ]
+verbose parsed url { pathname: '1.0.5', path: '1.0.5', href: '1.0.5' }
+verbose addNamed [ 'css-stringify', '1.0.5' ]
+verbose addNamed [ '1.0.5', '1.0.5' ]
+verbose raw, before any munging css-stringify/1.0.5
+verbose url resolving [ 'https://registry.npmjs.org/', './css-stringify/1.0.5' ]
+verbose url resolved https://registry.npmjs.org/css-stringify/1.0.5
+verbose etag "97RYHWVCSH89KFHK0KOQSIUVI"
+http GET https://registry.npmjs.org/css-stringify/1.0.5
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/bin
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/bin/uglifyjs
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/output.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/parse.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/scope.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/compress.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/transform.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/ast.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/sourcemap.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/utils.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/lib/mozilla-ast.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/tools
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/tools/node.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/run-tests.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/issue-22.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/properties.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/debugger.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/issue-105.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/issue-59.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/drop-unused.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/blocks.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/labels.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/switch.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/dead-code.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/conditionals.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/loops.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/arrays.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/issue-44.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/issue-12.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package/test/compress/sequences.js
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/___uglify-js.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js/package.json
+verbose loadDefaults uglify-js@2.2.5
+info preinstall uglify-js@2.2.5
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'source-map@~0.1.7', null ]
+silly cache add: name, spec, args [ undefined, 'source-map@~0.1.7', [ 'source-map@~0.1.7', null ] ]
+verbose parsed url { pathname: 'source-map@~0.1.7',
+verbose parsed url   path: 'source-map@~0.1.7',
+verbose parsed url   href: 'source-map@~0.1.7' }
+silly cache add: name, spec, args [ 'source-map', '~0.1.7', [ 'source-map', '~0.1.7' ] ]
+verbose parsed url { pathname: '~0.1.7', path: '~0.1.7', href: '~0.1.7' }
+verbose addNamed [ 'source-map', '~0.1.7' ]
+verbose addNamed [ null, '>=0.1.7- <0.2.0-' ]
+silly name, range, hasData [ 'source-map', '>=0.1.7- <0.2.0-', false ]
+verbose cache add [ 'optimist@~0.3.5', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@~0.3.5', [ 'optimist@~0.3.5', null ] ]
+verbose parsed url { pathname: 'optimist@~0.3.5',
+verbose parsed url   path: 'optimist@~0.3.5',
+verbose parsed url   href: 'optimist@~0.3.5' }
+silly cache add: name, spec, args [ 'optimist', '~0.3.5', [ 'optimist', '~0.3.5' ] ]
+verbose parsed url { pathname: '~0.3.5', path: '~0.3.5', href: '~0.3.5' }
+verbose addNamed [ 'optimist', '~0.3.5' ]
+verbose addNamed [ null, '>=0.3.5- <0.4.0-' ]
+silly name, range, hasData [ 'optimist', '>=0.3.5- <0.4.0-', false ]
+verbose raw, before any munging optimist
+verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+verbose url resolved https://registry.npmjs.org/optimist
+verbose etag "CQH6CRG5WRAGMFFF7T4PXWZC4"
+http GET https://registry.npmjs.org/optimist
+verbose raw, before any munging source-map
+verbose url resolving [ 'https://registry.npmjs.org/', './source-map' ]
+verbose url resolved https://registry.npmjs.org/source-map
+verbose etag "8KECYCFVVL005OQYSXR3EC20H"
+http GET https://registry.npmjs.org/source-map
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/readdirp.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/stream-api.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/LICENSE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/readdirp.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/readdirp-stream.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_file2.ext2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_file3.ext3
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_file1.ext1
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir2/root_dir2_file1.ext1
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir2/root_dir2_file2.ext2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir1
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir1/root_dir1_file1.ext1
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir1/root_dir1_file3.ext3
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir1/root_dir1_file2.ext2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir1/root_dir1_subdir1
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/test/bed/root_dir1/root_dir1_subdir1/root1_dir1_subdir1_file1.ext1
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/grep.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/callback-api.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/stream-api.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/Readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/stream-api-pipe.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/examples
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/examples/tap-nested-objects.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/test/tap-stream.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/LICENSE.APACHE2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/LICENSE.MIT
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/test/buffering.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/test/end.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/tap-stream/node_modules/through/test/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/LICENCE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/examples
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/examples/pretty.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/readable.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/merge.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/connect.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/readArray.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/spec.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/stringify.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/writeArray.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/replace.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/split.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/simple-map.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/pipeline.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/test/pause.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/README.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/Makefile
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/LICENCE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/test.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/duplexer/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/LICENCE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/examples
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/examples/pretty.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/map-stream/test/simple-map.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from/LICENSE.APACHE2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from/LICENSE.MIT
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/from/test/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream/test/pause-end.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/pause-stream/test/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/LICENSE.APACHE2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/LICENSE.MIT
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/test/buffering.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/test/end.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/through/test/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/LICENCE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/examples
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/examples/pretty.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/test/split.asynct.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/readme.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/.travis.yml
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/LICENSE.APACHE2
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/LICENSE.MIT
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/split/node_modules/through/test/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/README.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/LICENSE
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/string.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/usage-options.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/line_count_wrap.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/default_hash.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/divide.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/short.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/boolean_single.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/line_count_options.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/boolean_double.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/nonopt.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/line_count.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/bool.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/reflect.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/default_singles.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/examples/xup.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/test/parse.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/test/_.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/test/usage.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/test/_
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/test/_/argv.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/test/_/bin.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/README.markdown
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/package.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/example
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/example/center.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/example/meat.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/test
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/test/idleness.txt
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/test/break.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package/examples/node_modules/event-stream/node_modules/optimist/node_modules/wordwrap/test/wrap.js
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/readdirp
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/___readdirp.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/readdirp' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/readdirp/package.json
+verbose loadDefaults readdirp@0.2.4
+info preinstall readdirp@0.2.4
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/readdirp/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/monocle/node_modules/readdirp/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'minimatch@>=0.2.4', null ]
+silly cache add: name, spec, args [ undefined, 'minimatch@>=0.2.4', [ 'minimatch@>=0.2.4', null ] ]
+verbose parsed url { pathname: 'minimatch@',
+verbose parsed url   path: 'minimatch@',
+verbose parsed url   href: 'minimatch@' }
+silly cache add: name, spec, args [ 'minimatch', '>=0.2.4', [ 'minimatch', '>=0.2.4' ] ]
+verbose parsed url { pathname: '=0.2.4', path: '=0.2.4', href: '=0.2.4' }
+verbose addNamed [ 'minimatch', '>=0.2.4' ]
+verbose addNamed [ null, '>=0.2.4' ]
+silly name, range, hasData [ 'minimatch', '>=0.2.4', false ]
+verbose raw, before any munging minimatch
+verbose url resolving [ 'https://registry.npmjs.org/', './minimatch' ]
+verbose url resolved https://registry.npmjs.org/minimatch
+verbose etag "5JX71LVFYVTO8MP94CQJNAUUL"
+http GET https://registry.npmjs.org/minimatch
+http 304 https://registry.npmjs.org/css-stringify/1.0.5
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"97RYHWVCSH89KFHK0KOQSIUVI"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:35 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag css-stringify/1.0.5 from cache
+http 304 https://registry.npmjs.org/css-parse/1.0.4
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"3MTBCT7T6RX6ZR7AC6GERGGPN"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:35 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag css-parse/1.0.4 from cache
+http 304 https://registry.npmjs.org/is-promise
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"93525UOVLGZVZ46R0AA0GD6H4"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:35 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag is-promise from cache
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: 'b0d042946db2953bb9d292900a6cb5f6d0122031',
+verbose bin dist     tarball: 'http://registry.npmjs.org/css-stringify/-/css-stringify-1.0.5.tgz' } ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: '38b0503fbf9da9f54e9c1dbda60e145c77117bdd',
+verbose bin dist     tarball: 'http://registry.npmjs.org/css-parse/-/css-parse-1.0.4.tgz' } ]
+silly name, range, hasData 2 [ 'is-promise', '>=1.0.0- <2.0.0-', true ]
+silly versions [ 'is-promise', [ '1.0.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: 'b998d17551f16f69f7bd4828f58f018cc81e064f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/is-promise/-/is-promise-1.0.0.tgz' } ]
+verbose caching /home/jangot/.npm/css-stringify/1.0.5/package/package.json
+verbose loadDefaults css-stringify@1.0.5
+verbose caching /home/jangot/.npm/css-parse/1.0.4/package/package.json
+verbose loadDefaults css-parse@1.0.4
+silly resolved [ { name: 'css-stringify',
+silly resolved     version: '1.0.5',
+silly resolved     description: 'CSS compiler',
+silly resolved     keywords: [ 'css', 'stringify', 'stylesheet' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     devDependencies: { mocha: '*', should: '*', 'css-parse': '1.0.3' },
+silly resolved     main: 'index',
+silly resolved     _id: 'css-stringify@1.0.5',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'css-stringify@1.0.5',
+silly resolved     scripts: {} },
+silly resolved   { name: 'css-parse',
+silly resolved     version: '1.0.4',
+silly resolved     description: 'CSS parser',
+silly resolved     keywords: [ 'css', 'parser', 'stylesheet' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     main: 'index',
+silly resolved     _id: 'css-parse@1.0.4',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'css-parse@1.0.4',
+silly resolved     scripts: {} } ]
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css css-stringify@1.0.5
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css css-parse@1.0.4
+info installOne css-stringify@1.0.5
+info installOne css-parse@1.0.4
+verbose caching /home/jangot/.npm/is-promise/1.0.0/package/package.json
+verbose loadDefaults is-promise@1.0.0
+silly resolved [ { name: 'is-promise',
+silly resolved     version: '1.0.0',
+silly resolved     description: 'Test whether an object looks like a promises-a+ promise',
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'mocha -R spec' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/then/is-promise.git' },
+silly resolved     author: { name: 'ForbesLindesay' },
+silly resolved     license: 'MIT',
+silly resolved     devDependencies: { 'better-assert': '~0.1.0', mocha: '~1.7.4' },
+silly resolved     _id: 'is-promise@1.0.0',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'is-promise@~1' } ]
+info into /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise is-promise@1.0.0
+info installOne is-promise@1.0.0
+verbose from cache /home/jangot/.npm/css-stringify/1.0.5/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify
+verbose from cache /home/jangot/.npm/css-parse/1.0.4/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse
+verbose from cache /home/jangot/.npm/is-promise/1.0.0/package/package.json
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm'
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm 755
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm/package/readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm/package/package.json
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/___is-promise.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/package.json
+verbose loadDefaults is-promise@1.0.0
+info preinstall is-promise@1.0.0
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules/is-promise/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/node_modules' ]
+info linkStuff is-promise@1.0.0
+verbose linkBins is-promise@1.0.0
+verbose linkMans is-promise@1.0.0
+verbose rebuildBundles is-promise@1.0.0
+info install is-promise@1.0.0
+info postinstall is-promise@1.0.0
+silly afterUntar ok
+verbose installOne cb is-promise@1.0.0
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/promise/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules' ]
+info linkStuff promise@2.0.0
+verbose linkBins promise@2.0.0
+verbose linkMans promise@2.0.0
+verbose rebuildBundles promise@2.0.0
+verbose rebuildBundles [ 'is-promise' ]
+info install promise@2.0.0
+info postinstall promise@2.0.0
+verbose installOne cb promise@2.0.0
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package/Makefile
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package/History.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package/Readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package/package.json
+silly afterUntar ok
+silly chmod package 755
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package/component.json
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package/.npmignore
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package/Makefile
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package/History.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package/Readme.md
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package/index.js
+silly asyncMap in gTP /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package/package.json
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-stringify.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify' ]
+silly chmod package 755
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/package.json
+verbose loadDefaults css-stringify@1.0.5
+verbose gunzed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package
+verbose rm'ed /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse
+verbose renamed [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/___css-parse.npm/package',
+verbose renamed   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse' ]
+verbose caching /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/package.json
+verbose loadDefaults css-parse@1.0.4
+info preinstall css-stringify@1.0.5
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-stringify/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules' ]
+info linkStuff css-stringify@1.0.5
+verbose linkBins css-stringify@1.0.5
+verbose linkMans css-stringify@1.0.5
+verbose rebuildBundles css-stringify@1.0.5
+info install css-stringify@1.0.5
+info preinstall css-parse@1.0.4
+info postinstall css-stringify@1.0.5
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/package.json
+verbose installOne cb css-stringify@1.0.5
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules/css-parse/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/node_modules' ]
+info linkStuff css-parse@1.0.4
+verbose linkBins css-parse@1.0.4
+verbose linkMans css-parse@1.0.4
+verbose rebuildBundles css-parse@1.0.4
+info install css-parse@1.0.4
+info postinstall css-parse@1.0.4
+verbose installOne cb css-parse@1.0.4
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css
+info build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/css/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules' ]
+info linkStuff css@1.0.8
+verbose linkBins css@1.0.8
+verbose linkMans css@1.0.8
+verbose rebuildBundles css@1.0.8
+verbose rebuildBundles [ 'css-parse', 'css-stringify' ]
+info install css@1.0.8
+info postinstall css@1.0.8
+verbose installOne cb css@1.0.8
+http 304 https://registry.npmjs.org/optimist
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"CQH6CRG5WRAGMFFF7T4PXWZC4"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:35 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag optimist from cache
+silly name, range, hasData 2 [ 'optimist', '>=0.3.5- <0.4.0-', true ]
+silly versions [ 'optimist',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.0.3',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.3',
+silly versions     '0.3.4',
+silly versions     '0.3.5',
+silly versions     '0.3.6',
+silly versions     '0.3.7',
+silly versions     '0.4.0',
+silly versions     '0.5.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-44-generic-pae',
+verbose bin dist   { shasum: 'c90941ad59e4273328923074d2cf2e7cbc6ec0d9',
+verbose bin dist     tarball: 'http://registry.npmjs.org/optimist/-/optimist-0.3.7.tgz' } ]
+http 304 https://registry.npmjs.org/source-map
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"8KECYCFVVL005OQYSXR3EC20H"',
+silly get cb     date: 'Mon, 27 May 2013 16:08:35 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag source-map from cache
+verbose caching /home/jangot/.npm/optimist/0.3.7/package/package.json
+verbose loadDefaults optimist@0.3.7
+silly name, range, hasData 2 [ 'source-map', '>=0.1.7- <0.2.0-', true ]
+silly versions [ 'source-map',
+silly versions   [ '0.0.0', '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js
+ERR! error installing uglify-js@2.2.5
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/uglify-js/package.json
+info preuninstall uglify-js@2.2.5
+info uninstall uglify-js@2.2.5
+verbose unbuild uglify-js@2.2.5 [ false,
+verbose unbuild uglify-js@2.2.5   '/home/jangot/WebstormProjects/temp/node_modules',
+verbose unbuild uglify-js@2.2.5   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules' ]
+verbose binRoot [ '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/node_modules/.bin',
+verbose binRoot   { uglifyjs: 'bin/uglifyjs' } ]
+info postuninstall uglify-js@2.2.5
+verbose installOne cb uglify-js@2.2.5
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers
+ERR! error installing transformers@2.0.1
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/node_modules/transformers/package.json
+info preuninstall transformers@2.0.1
+info uninstall transformers@2.0.1
+verbose unbuild transformers@2.0.1 [ false,
+verbose unbuild transformers@2.0.1   '/home/jangot/WebstormProjects/temp/node_modules',
+verbose unbuild transformers@2.0.1   '/home/jangot/WebstormProjects/temp/node_modules/jade/node_modules' ]
+info postuninstall transformers@2.0.1
+verbose installOne cb transformers@2.0.1
+verbose about to build /home/jangot/WebstormProjects/temp/node_modules/jade
+ERR! error installing jade@0.30.0
+info unbuild /home/jangot/WebstormProjects/temp/node_modules/jade
+verbose from cache /home/jangot/WebstormProjects/temp/node_modules/jade/package.json
+info preuninstall jade@0.30.0
+info uninstall jade@0.30.0
+verbose unbuild jade@0.30.0 [ true,
+verbose unbuild jade@0.30.0   '/home/jangot/WebstormProjects/temp/node_modules',
+verbose unbuild jade@0.30.0   '/home/jangot/WebstormProjects/temp/node_modules' ]
+verbose binRoot [ '/home/jangot/WebstormProjects/temp/node_modules/.bin',
+verbose binRoot   { jade: './bin/jade' } ]
+info postuninstall jade@0.30.0
+verbose installOne cb jade@0.30.0
+ERR! Error: No compatible version found: source-map@'>=0.1.7- <0.2.0-'
+ERR! Valid install targets:
+ERR! ["0.0.0","0.1.0","0.1.1","0.1.2","0.1.3"]
+ERR!     at installTargetsError (/usr/share/npm/lib/cache.js:488:10)
+ERR!     at next_ (/usr/share/npm/lib/cache.js:438:17)
+ERR!     at next (/usr/share/npm/lib/cache.js:415:44)
+ERR!     at /usr/share/npm/lib/cache.js:408:5
+ERR!     at saved (/usr/share/npm/lib/utils/npm-registry-client/get.js:147:7)
+ERR!     at Object.oncomplete (/usr/lib/nodejs/graceful-fs.js:230:7)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/jangot/WebstormProjects/temp/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.2.0-44-generic-pae
+ERR! command "node" "/usr/bin/npm" "install" "jade"
+ERR! cwd /home/jangot/WebstormProjects/temp
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message No compatible version found: source-map@'>=0.1.7- <0.2.0-'
+ERR! message Valid install targets:
+ERR! message ["0.0.0","0.1.0","0.1.1","0.1.2","0.1.3"]
+verbose exit [ 1, true ]

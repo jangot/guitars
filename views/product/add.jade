@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+  h1(class='title')= title
+    form(action='/product/add', method='post')
+        label Brand
+            select(name='brand')
+                - for (var brand in brands)
+                    option(value='brand')= brands[brand]
+        label

@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+html {
+    font-size: 100.01%;
+    height: 100%;
+}
+body {
+    font-size: 62.5%;
+    font-family:Tahoma,Geneva,Kalimati,sans-serif;
+    height:100%;
+    background: #ECE9E9;
+    color: #6a8786;
+}
+
+.main {
+    width: 500px;
+    margin: 20px auto 0;
+    font-size: 1.4em;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}

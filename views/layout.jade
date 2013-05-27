@@ -1,0 +1,64 @@
+doctype 5
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/index.css')
+        link(href='/favicon.ico', rel='icon', type='image/x-icon')
+        link(href='/favicon.ico', rel='shortcut icon', type='image/x-icon')
+    body
+        //block content
+        div.main
+            header.siteSize.menu
+                div.siteSizeContent
+                    //manu
+                    table
+                        tr
+                            td.left
+                            td.element(style='white-space: nowrap;')
+                                a(href='#') HOME PAGE
+                            td.right
+
+                            td.left
+                            td.element(style='white-space: nowrap;')
+                                a(href='#') CATALOG
+                            td.right
+
+                            td.left
+                            td.element(style='white-space: nowrap;')
+                                a(href='/product/add') ADD
+                            td.right
+
+                            td.left
+                            td.element(style='white-space: nowrap;')
+                                a(href='/auth/logout') LOGOUT
+                            td.right
+
+            div(class='mainPanel siteSize')
+                div(class='siteSizeContent')
+                    //left block
+                    div(class='sizeLeftBlock')
+                        div(class='basket')
+                            h3(class='title') Shopping cart
+                            p Now in your chart
+                                span  5 item
+                    div(class='sizeMainBlock')
+                        div(class='sizeMainBlockContent')
+                            div(class='title') Guitars
+            article(class='siteSize')
+                div(class='siteSizeContent')
+                    div(class='sizeLeftBlock')
+                        div(class='categoriesList')
+                            h3(class='title') Shop by categories
+                            ul
+                                li
+                                    a(href='#') Hard
+                                li
+                                    a(href='#') Middle
+                                li
+                                    a(href='#') Soft
+                    div(class='sizeMainBlock')
+                        div(class='sizeMainBlockContent')
+                            block content
+        footer.siteSize
+            div.siteSizeContent
+               p &copy; Main guitars.

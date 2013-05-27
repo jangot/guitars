@@ -1,0 +1,14 @@
+extends ../simplLayout
+
+block content
+  h1(class='title')
+    | Auth
+
+  form(action='/auth/login', method='post')
+    label
+      | Name
+      input(name='login', value='jangot')
+    label
+      | Password
+      input(name='pass', value='111')
+    input(value='Send', type='submit')
